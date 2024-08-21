@@ -1,0 +1,6 @@
+context_prompt = "prompts/context_llm.json"
+question_form_prompt = "prompts/expand_no_context_ques.json"
+question_sim = "prompts/merge_similar_question.json"
+clustering_rows = "prompts/clustering_rows.json"
+llm_url = "http://129.80.151.216:8888/"
+llm_endpoint = "api/train/llm/rag/invoke"
