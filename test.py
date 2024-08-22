@@ -1,24 +1,15 @@
 import pandas as pd
-import numpy as np
 
 # Example DataFrame
 df = pd.DataFrame({
-    'A': [1, 2, np.nan, 4],
-    'B': [np.nan, 2, 3, 4],
-    'C': [1, np.nan, np.nan, 4]
+    'A': [1, 2, 3],
+    'B': [4, 5, 6]
 })
 
-# Flatten the DataFrame to a single Series
-flattened = df.stack()
+# Value to add to all cells in the new row
+value = 9
 
-# Reset the index to create a new DataFrame without NaN values
-df_cleaned = flattened.reset_index(drop=True)
+# Adding a new row with the same value in all columns
+df.loc[len(df)] = [value] * len(df.columns)
 
-# If you want to reshape back into a 2D DataFrame with the dropped NaNs removed:
-reshaped_df = pd.DataFrame(df_cleaned.values.reshape(-1, len(df.columns)))
-
-print("Flattened and NaNs removed:")
-print(df_cleaned)
-
-print("\nReshaped DataFrame:")
-print(reshaped_df)
+print(df)
