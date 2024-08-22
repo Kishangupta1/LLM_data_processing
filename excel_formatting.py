@@ -46,7 +46,7 @@ for idx, (worker, answers) in tqdm(enumerate(data.items()), desc="Progress"):
         # Align the columns to the correct index positions
         columns_to_add = pd.concat([pd.DataFrame(index=result.index), columns_to_add], ignore_index=True)
         # Reset the column header
-        column_headers = ['worker_' + str(i + len(result.columns)) for i in range(len(columns_to_add.columns))]
+        column_headers = ['worker_' + str(i + len(result.columns) - 1) for i in range(len(columns_to_add.columns))]
         columns_to_add.columns = column_headers
         # Combine the DataFrames
         result = pd.concat([df_combined_rows, columns_to_add], axis=1)
@@ -60,5 +60,5 @@ for idx, (worker, answers) in tqdm(enumerate(data.items()), desc="Progress"):
 
 # write to csv file
 # result_t = result.transpose()
-result.to_excel('socio_economic3.xlsx', index=False, engine='xlsxwriter')
+result.to_excel('op/socio_economic3.xlsx', index=False, engine='xlsxwriter')
 # result.to_csv('socio_economic.csv', index=False, encoding="utf-8")
