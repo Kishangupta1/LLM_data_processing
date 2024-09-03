@@ -27,9 +27,9 @@ def get_clustered_row(rows_list):
 
 
 if __name__ == '__main__':
-    filepath = "op/merged_socio_economic_ques2.xlsx"
+    filepath = "op/merged_socio_economic_ques4.xlsx"
     df = pd.read_excel(filepath)
-    start_col = 3
+    start_col = 2
     for i in tqdm(range(len(df)), desc="Processing"):
         ###############DEBUG#####################
         if i == 18:

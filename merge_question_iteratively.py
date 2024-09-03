@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 from tqdm import tqdm
 import config as cfg
+import random
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -11,18 +12,21 @@ from sklearn.metrics.pairwise import cosine_similarity
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 # open prompt files
-with open(cfg.question_sim) as f:
+with open(cfg.question_sim_iter) as f:
     msg_data_ques = json.load(f)
-    
-    
-def get_similar_question_idx(idx, question_list):
+
+
+def get_similar_question_idx(question_with_idx):
     # System msg
     msg_list_ques = [json.dumps({"role": "system", "content": msg_data_ques["system"]})]
-    aug_msg_hypo = msg_data_ques['history'][0][
-                  'user'] + f"{list(zip(idx, question_list))}"
-    msg_list_ques.append(json.dumps({"role": "user", "content": aug_msg_hypo}))
+    # # User msg
+    for msg in msg_data_ques["history"]:
+        msg_list_ques.append(json.dumps({"role": "user", "content": msg["user"]}))
+        msg_list_ques.append(json.dumps({"role": "assistant", "content": msg["assistant"]}))
+    aug_msg_list_ques = msg_list_ques + [json.dumps({'role': 'user', 'content': f"{question_with_idx}"})]
     try:
-        res_hypo = requests.post(cfg.llm_url + cfg.llm_endpoint, data={'messages': msg_list_ques})
+        # res_hypo = requests.post(cfg.llm_url + cfg.llm_endpoint, data={'messages': msg_list_ques})
+        res_hypo = requests.post(cfg.llm_url + cfg.llm_endpoint, data={'messages': aug_msg_list_ques})
         str_out_hypo = res_hypo.content.decode()
         similar_question_list = json.loads(str_out_hypo.strip())['content']
     except Exception as e:
@@ -36,7 +40,7 @@ def merge_rows(df_l, rows_to_merge, rows_idx_to_drop_list, merge_iter_dict):
     # Start with the first row in the list
     merged_row = df_l.loc[rows_to_merge[0]]
     # get all the sentences
-    all_sentences = [df_l['question'][rows_to_merge[i]] for i in range(len(rows_to_merge))]
+    all_sentences = [df_l['question'][rows_to_merge[idx]] for idx in range(len(rows_to_merge))]
     embeddings = model.encode(all_sentences)
     # Iterate through the remaining rows and merge them if there's no overlap
     for idx, row in enumerate(rows_to_merge[1:]):
@@ -69,45 +73,41 @@ def merge_rows(df_l, rows_to_merge, rows_idx_to_drop_list, merge_iter_dict):
     # Replace the first row with the merged row
     df_l.loc[rows_to_merge[0]] = merged_row
 
-# def merge_rows(df, rows_to_merge, rows_idx_to_drop_list):
-#     # Start with the first row in the list
-#     merged_row = df.loc[rows_to_merge[0]]
-#
-#     # Iterate through the remaining rows and merge them
-#     for row in rows_to_merge[1:]:
-#         merged_row = merged_row.combine_first(df.loc[row])
-#
-#     # Replace the first row with the merged row
-#     df.loc[rows_to_merge[0]] = merged_row
-#
-#     # Add rows idx to drop
-#     rows_idx_to_drop_list.extend(rows_to_merge[1:])
-
 
 if __name__ == '__main__':
-    filepath = "op/socio_economic_ques.xlsx"
+    filepath = "op/merged_socio_economic_ques.xlsx"
     df = pd.read_excel(filepath)
-    rows_idx_to_drop = []
-    merge_similar_map = {}
-    context_group = df.groupby('context')
-    for group_name, group_df in tqdm(context_group, desc="Processing"):
-        # Access the 'question' column of the group
-        similar_question_idx = get_similar_question_idx(group_df.index, group_df['question'])
-        similar_question_idx_list = eval(similar_question_idx)
+    no_of_iter = 250
+    no_of_ques = 15
+    max_ques_to_merge_at_once = no_of_ques/1
+    merge_iter_map = {}
+    for i in tqdm(range(no_of_iter), desc="Processing"):
+        rows_idx_to_drop = []
+        # Randomly sample 20 questions along with their indices
+        random_questions = random.sample(list(enumerate(df["question"].str.strip())), no_of_ques)
+        similar_question_idx = get_similar_question_idx(random_questions)
+        try:
+            similar_question_idx_list = eval(similar_question_idx)  # Cast str to list
+        except Exception as e:
+            print(f"Error: {e} for itr: {i}")
+            continue
         if isinstance(similar_question_idx_list, list):
             for idx_list in similar_question_idx_list:
-                merge_rows(df, idx_list, rows_idx_to_drop, merge_similar_map)
+                if 1 < len(idx_list) < max_ques_to_merge_at_once:
+                    print(f"Merging indices: {idx_list}")
+                    print(f"questions: {[df['question'][x] for x in idx_list]}")
+                    merge_rows(df, idx_list, rows_idx_to_drop, merge_iter_map)
         else:
             print(f"Can't convert to list: {similar_question_idx}")
-
-    # Drop all other rows in the list
-    df.drop(rows_idx_to_drop, inplace=True)
+        # Drop all other rows in the list
+        df.drop(rows_idx_to_drop, inplace=True)
+        df.reset_index(drop=True, inplace=True)  # Reset index after dropping rows
 
     # write expand_ques_map to json
-    with open('merge_similar_map.json', 'w') as json_file:
-        json.dump(merge_similar_map, json_file, indent=4)
+    with open('merge_iter_map.json', 'w') as json_file:
+        json.dump(merge_iter_map, json_file, indent=4)
 
     # Save the updated DataFrame back to an Excel file
-    output_path = 'op/merged_socio_economic_ques.xlsx'  # Replace with desired output file path
+    output_path = f"op/iter_merged_socio_economic_ques.xlsx"  # Replace with desired output file path
     df.to_excel(output_path, index=False)
 

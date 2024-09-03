@@ -1,15 +1,30 @@
-import pandas as pd
+# Install the transformers library if you haven't already
+# !pip install transformers sentence-transformers
 
-# Example DataFrame
-df = pd.DataFrame({
-    'A': [1, 2, 3],
-    'B': [4, 5, 6]
-})
+from sentence_transformers import SentenceTransformer
 
-# Value to add to all cells in the new row
-value = 9
+# Load a pre-trained model from Hugging Face Model Hub
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
-# Adding a new row with the same value in all columns
-df.loc[len(df)] = [value] * len(df.columns)
+# Define sentences you want to encode
+sentences = [
+    "This is an example sentence.",
+    "Each sentence is converted into an embedding.",
+    "Sentence transformers are great for NLP tasks."
+]
 
-print(df)
+# Compute sentence embeddings
+embeddings = model.encode(sentences)
+
+# Print the embeddings
+for i, sentence in enumerate(sentences):
+    print(f"Sentence: {sentence}")
+    print(f"Embedding: {embeddings[i]}")
+    print()
+
+# You can also compute cosine similarity between sentences using the embeddings
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Calculate cosine similarity between the first and second sentence
+similarity = cosine_similarity([embeddings[0]], [embeddings[1]])
+print(f"Cosine Similarity between first and second sentence: {similarity[0][0]}")

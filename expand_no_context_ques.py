@@ -30,12 +30,19 @@ def generate_ques(sent):
 
 
 if __name__ == "__main__":
-    filepath = "op/socio_economic_con2.xlsx"
+    filepath = "op/socio_economic_con.xlsx"
     df = pd.read_excel(filepath)
+    expand_ques_map = {0: df.at[0, 'question']}
     # Iteratively replace "none" from context and modify the corresponding questions
     for i in tqdm(range(1, len(df)), desc="Progress"):
         if df.at[i, 'context'] == 'none':
             df.at[i, 'context'] = df.at[i-1, 'context']  # Replace "none" with the previous value
             df.at[i, 'question'] = generate_ques(f"question: {df.at[i, 'question']}  || context: {df.at[i, 'context']}")  # Modify the question
 
-    df.to_excel("op/socio_economic_ques2.xlsx", index=False, engine='xlsxwriter')
+        expand_ques_map[i] = df.at[i, 'question']
+
+    # write expand_ques_map to json
+    with open('expand_ques_map.json', 'w') as json_file:
+        json.dump(expand_ques_map, json_file, indent=4)
+
+    df.to_excel("op/socio_economic_ques.xlsx", index=False, engine='xlsxwriter')

@@ -24,8 +24,8 @@ for index, row in df.iterrows():
     else:
         if isinstance(row.values[1], str):
             row.values[1] = re.sub(r'[^\x00-\x7F]+', ' ', row.values[1])  # remove non-english characters
-        if row.values[0] == prev_row_val:  # Add data only of similar date
-            data[current_worker].append(row.values)
+        # if row.values[0] == prev_row_val:  # Add data only of similar date # not needed # modified the data
+        data[current_worker].append(row.values)
 
 # Create a new DataFrame from the collected data
 result = pd.DataFrame()
@@ -66,5 +66,5 @@ for idx, (worker, answers) in tqdm(enumerate(data.items()), desc="Progress"):
 
 # write to csv file
 # result_t = result.transpose()
-result.to_excel('op/socio_economic4.xlsx', index=False, engine='xlsxwriter')
+result.to_excel('op/socio_economic.xlsx', index=False, engine='xlsxwriter')
 # result.to_csv('socio_economic.csv', index=False, encoding="utf-8")

@@ -38,6 +38,6 @@ if __name__ == "__main__":
         context_list.append(result)
 
     # Append context in 2nd col
-    df.insert(2, 'context', context_list)
-    df.to_excel('op/socio_economic_con2.xlsx', index=False, engine='xlsxwriter')
+    df.insert(1, 'context', context_list)
+    df.to_excel('op/socio_economic_con.xlsx', index=False, engine='xlsxwriter')
 
