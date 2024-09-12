@@ -1,0 +1,65 @@
+{
+    'Cluster1': ['food, medical , school fees, other expenses', 'food, education child, family expebnses', 'food, education 2 brother, 1 sister\nfather di...', 'food, 2 sister edu. Mother high pressure medicin', 'food, education children', 'food, education 2, other family expenses'],
+    'Cluster2': ['making house, food,', 'family expenses, medicin wife,', 'Family, education of 4 children', 'food, education of 3 children, wife\'s medicin']
+}{
+    'Cluster1': ['food, medicine wife, house rent', 'food, brother-2, sister-1 study,\nmedicine mother', 'Food, education,\n other family expense ', 'Food, loan\n other family expense ', 'Food, loan, education children\n other family ...', 'food, education, others expenses', 'food, education, others expenses,\nloan refund', 'food, education, others expenses, medicin'],
+    'Cluster2': ['food, medician mother, loan'],
+    'Cluster3': ['All saving']
+}{
+    'Cluster1': ['Family expensesfood', 'FOOD/ family expense', 'family expense/ food', 'family expense/ food/edu of sister', 'family food/ expenses'],
+    'Cluster2': ['food, education 2 brother', '4 education, food,', 'children 4 education, family expenses'],
+    'Cluster3': ['sister nursing course, family'],
+    'Cluster4': ['food / family/ Housing making/ medicin']
+}{
+    'Cluster1': ['school', 'family expense', 'parents'],
+    'Cluster2': ['home expense', 'parent', 'family need', 'Parents'],
+    'Cluster3': ['school fees', 'family expense', 'food', 'Loan/ school fees', '(2 ) 1 boy 1 girl'],
+    'Cluster4': ['food, education', 'food, family expense'],
+    'Cluster5': ['Loan', 'Food', 'Food/ family'],
+    'Cluster6': [NaN]
+}{
+    'Cluster1': ['food, education', 'Father medicin, food, 2 education\nsister educ...', 'food, medical treatment, \nfamily expenses, ed...', 'food, education children, family expenses'],
+    'Cluster2': ['education 1 brother, \nnot started', 'bro education, mother medi\nfamily expene', '2 sis + 1 broth edu\nfamily food'],
+    'Cluster3': ['family expense,\nsaving', 'family expenses, education younger brother', 'family expenses'],
+    'Cluster4': ['savings'],
+    'Cluster5': ['food, family expenses']
+}{
+    'Cluster1': ['bro edu+grand mother medi\\nfamily expense', 'family , children education', 'Loan, family expenses, education', '2 boys and 1 brother education\\nloan\\nfamily e...', 'family expense\\n1 yonger bro edu'],
+    'Cluster2': ['family/ medicine', 'family food\\nmedicin', 'family\\neducation', 'family\\neducation of children'],
+    'Cluster3': ['food\\n3 bro edu\\nfamily']
+}{
+    'Cluster1': ['education bro/ sister\nfood\nfamily', 'food\nfamily expenses', 'food\nfamily expenses\n3 children education', 'food\neducation 1 bro', 'food\neducation childrem 1', 'family \nfood\nchildren edu'],
+    'Cluster2': ['treatment of father\nfood', 'for loan, Family expenses', 'For loan, family other', 'food, medicine parents']
+}{
+    'Cluster1': ['Loan , food, eductaion children', 'Food, education children, Parents'],
+    'Cluster2': ['Food, Medicine parents', 'parents medicine, food, education children', 'food,education, medicine'],
+    'Cluster3': ['Medicine food', 'food, medicin father, education children'],
+    'Cluster4': ['Food (1000), house rent (1000)'],
+    'Cluster5': ['Family expenses'],
+    'Cluster6': ['food, medicine  sugar dabetic\n']
+}{
+    'Cluster1': ['food,, medicine', 'food,Family', 'Food, education, house rent', 'Food family'],
+    'Cluster2': ['education, food, rents', 'food, education, rents', 'food, education , meducine'],
+    'Cluster3': ['food, others, \nloan QAR 600', 'food, medicine pressure, loan QAR 550', 'food, education , savings QAR 50']
+}{
+    'Cluster1': ['food,repay loan', 'food,medicines', 'loan,food', 'food, education'],
+    'Cluster2': ['loan repay,education', 'Family, education, loan repay', 'Family, education, loan'],
+    'Cluster3': ['family, education', 'family & Loan'],
+    'Cluster4': ['loan']
+}{
+    'Cluster1': ['Family, saving', 'Family, saving, land purchase', 'Family, Education, saving'],
+    'Cluster2': ['family & now no Loan', 'Family, Education, Loan', 'Family & education, Loan'],
+    'Cluster3': ['Family, education', 'Family, education, loan paid', 'Family & education', 'Family, house']
+}{
+    'Cluster1': ['family & education', 'Family & loan & saving', 'family, education, & medical', 'Family, laon repay', 'Family, loan repay', 'Family, Loan repay, Education', 'Family, education,', 'Education, family, loan repay', 'Loan, Family, education'],
+    'Cluster2': ['Family & food']
+}{
+'Cluster1': ['food, education', 'food, loan, education\nsiblings, fa,ily expenses', 'food, loan, education\nchildren, fa,ily expenses'],
+'Cluster2': ['food, medicine, fa,ily expenses'],
+'Cluster3': ['food, family', 'food, family, education children', 'food, family, education sibling ', 'food, family, education\nmedicin sister', 'food, family, education of children\nmedicin s...'],
+'Cluster4': ['siblings, fa,ily expenses']
+}{
+    'Cluster1': ['food, family, education of children', 'food, family expense\nsaving forsister marriag...', 'food, family, medicine parents'],
+    'Cluster2': ['loan, family', 'Family, education for children', 'Family expenses, \neducation sister', 'Family expenses, \neducation childern'],
+    'Cluster3': ['family, education children', 'Family expenses, medicine for mother\nbrothers...']
+}

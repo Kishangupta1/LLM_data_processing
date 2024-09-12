@@ -1,0 +1,34 @@
+{
+    "Accomodation (QAR)": [
+        "Accomodation (QAR)",
+        "Accomodation [Numerical value only]"
+    ],
+    "Did you pay any fee/monies to get this job?": [
+        "Did you pay any fee/monies to get this job?",
+        "Did you pay any moneys to get this job and come here? "
+    ],
+    "Do you have to serve any loans?": [
+        "Do you have to serve any loans?",
+        "Did you take out a loan for this?"
+    ],
+    "Visa / Work permit (QAR)": [
+        "Visa / Work permit (QAR)",
+        "Visa / Work permit [Numerical value only]"
+    ],
+    "Visit Type": [
+        "Visit Type",
+        "Visit Type"
+    ],
+    "What was the payment made for?": [
+        "What was the payment made for?",
+        "What was the payment made for?"
+    ],
+    "To whom did you pay the 8% recruitment agency fees?": [
+        "To whom did you pay the 8% recruitment agency fees?",
+        "Who did you pay?"
+    ],
+    "Would you recommend this factory as a good place to work to a friend?": [
+        "Would you recommend this factory as a good place to work to a friend?",
+        "Would you recommend this job to a friend?"
+    ]
+}

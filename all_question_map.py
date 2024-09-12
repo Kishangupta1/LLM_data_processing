@@ -23,7 +23,7 @@ map_dict = dict(zip(map_df['mapping'], map_df['question']))
 def get_key_for_value_in_list(d, search_value):
     for key, value_list in d.items():
         if len(value_list) > 1:
-            if any(search_value == value for value in value_list):
+            if any(search_value.lower().strip() == value.lower().strip() for value in value_list):
                 return key
         else:
             if search_value in value_list:

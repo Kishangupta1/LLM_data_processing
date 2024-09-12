@@ -1,0 +1,835 @@
+{
+    "Do you ever experience or witness verbal abuse or harassment?": [
+        "Do you ever experience or witness verbal abuse or  harassment at an SC site?",
+        "Do you ever experience or witness verbal abuse or harassment?",
+        "Do you ever experience or witness verbal abuse or  harassment at an SC site?",
+        "Do you ever experience or witness verbal abuse or harassment?",
+        "Do you ever experience or witness verbal abuse or  harassment at an SC site?",
+        "Do you ever experience or witness verbal abuse or harassment?",
+        "Do you ever experience or witness verbal abuse or  harassment at an SC site?",
+        "Do you ever experience or witness verbal abuse or harassment?",
+        "Do you ever experience or witness verbal abuse or  harassment at an SC site?"
+    ],
+    "Do you ever experience or witness physical abuse or harassment?": [
+        "Do you ever experience or witness physical abuse or harassment at an SC site?",
+        "Do you ever experience or witness physical abuse or harassment?",
+        "Do you ever experience or witness physical abuse or harassment at an SC site?",
+        "Do you ever experience or witness physical abuse or harassment?",
+        "Do you ever experience or witness physical abuse or harassment at an SC site?",
+        "Do you ever experience or witness physical abuse or harassment?",
+        "Do you ever experience or witness physical abuse or harassment at an SC site?",
+        "Do you ever experience or witness physical abuse or harassment?",
+        "Do you ever experience or witness physical abuse or harassment at an SC site?"
+    ],
+    "Accomodation (QAR)": [
+        "Accomodation (QAR)",
+        "Accomodation (QAR)",
+        "Accomodation (QAR)"
+    ],
+    "Accomodation [Numerical value only]": [
+        "Accomodation [Numerical value only]"
+    ],
+    "Age": [
+        "Age       ",
+        "Age",
+        "Age       ",
+        "Age",
+        "Age       ",
+        "Age",
+        "Age       ",
+        "Age",
+        "Age       ",
+        "Age",
+        "Age       ",
+        "Age",
+        "Age       ",
+        "Age",
+        "Age"
+    ],
+    "Agency fees (QAR)": [
+        "Agency fees (QAR)",
+        "Agency fees (QAR)",
+        "Agency fees (QAR)"
+    ],
+    "Airfare (QAR)": [
+        "Airfare (QAR)",
+        "Airfare (QAR)",
+        "Airfare (QAR)"
+    ],
+    "Confirm total amount with worker (QAR)": [
+        "Confirm total amount with worker (QAR)",
+        "Confirm total amount with worker (QAR)",
+        "Confirm total amount with worker (QAR)",
+        "Confirm total amount with worker (QAR)",
+        "Confirm total amount with worker (QAR)",
+        "Confirm total amount with worker (QAR)",
+        "Confirm total amount with worker (QAR)"
+    ],
+    "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers": [
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From Clients or Customers"
+    ],
+    "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors": [
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors",
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors"
+    ],
+    "Broker / Middle man (QAR)": [
+        "Broker / Middle man (QAR)",
+        "Broker / Middle man (QAR)",
+        "Broker / Middle man (QAR)"
+    ],
+    "Broker / Middle man [Numerical value only]": [
+        "Broker / Middle man [Numerical value only]"
+    ],
+    "How much did you pay for Local Transport?": [
+        "How much did you pay for Local Transport?"
+    ],
+    "How much airfare did the broker pay?": [
+        "How much airfare did the broker pay?"
+    ],
+    "Would you like your children to do your job when they get older? ": [
+        "Would you like your children to do your job when they get older? "
+    ],
+    "Date of joining contractor": [
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor",
+        "Date of joining contractor"
+    ],
+    "Contractor Name": [
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor Name",
+        "Contractor name",
+        "Contractor Name",
+        "Contractor name",
+        "Contractor Name",
+        "Contractor name",
+        "Contractor Name",
+        "Contractor name",
+        "Contractor Name",
+        "Contractor name",
+        "Contractor Name",
+        "Contractor name",
+        "Contractor Name",
+        "Contractor name"
+    ],
+    "Contractor": [
+        "Contractor",
+        "Contractor",
+        "Contractor"
+    ],
+    "Country of Origin": [
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin",
+        "Country of Origin"
+    ],
+    "Country        ": [
+        "Country        "
+    ],
+    "Quarter & year": [
+        "Quarter & year",
+        "Quarter & year",
+        "Quarter & year"
+    ],
+    "What's your biggest expenditure in Qatar each month?": [
+        "What's your biggest expenditure in Qatar each month?\n               ",
+        "What's your biggest expenditure in Qatar each month?",
+        "What's your biggest expenditure in Qatar each month?\n               ",
+        "What's your biggest expenditure in Qatar each month?",
+        "What's your biggest expenditure in Qatar each month?\n               ",
+        "What's your biggest expenditure in Qatar each month?",
+        "What's your biggest expenditure in Qatar each month?\n               ",
+        "What's your biggest expenditure in Qatar each month?",
+        "What's your biggest expenditure in Qatar each month?\n               ",
+        "What's your biggest expenditure in Qatar each month?",
+        "What's your biggest expenditure in Qatar each month?\n               ",
+        "What's your biggest expenditure in Qatar each month?",
+        "What's your biggest expenditure in Qatar each month?\n               ",
+        "What's your biggest expenditure in Qatar each month?",
+        "What's your biggest expenditure in Qatar each month? (QAR)\n               "
+    ],
+    "How many family member do you support?": [
+        "How many family member do you support?      ?                    ? ",
+        "How many family member do you support?",
+        "How many family member do you support?      ?                    ? ",
+        "How many family member do you support?",
+        "How many family member do you support?      ?                    ? ",
+        "How many family member do you support?",
+        "How many family member do you support?      ?                    ? ",
+        "How many family member do you support?",
+        "How many family member do you support?      ?                    ? ",
+        "How many family member do you support?",
+        "How many family member do you support?      ?                    ? ",
+        "How many family member do you support?",
+        "How many family member do you support?      ?                    ? "
+    ],
+    "Gender": [
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender",
+        "Gender"
+    ],
+    "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?": [
+        "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?",
+        "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?",
+        "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?",
+        "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?",
+        "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?",
+        "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?",
+        "If yes, can you share...\n- what happened?\n- when did it happen?\n- who did you tell?\n- how was it dealt with?"
+    ],
+    "Interviewee Number": [
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number",
+        "Interviewee Number"
+    ],
+    "Group of interviewees": [
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees",
+        "Group of interviewees"
+    ],
+    "How do you feel about your job?": [
+        "How do you feel about your job?",
+        "How do you feel about your job?",
+        "How do you feel about your job?",
+        "How do you feel about your job?",
+        "How do you feel about your job?",
+        "How do you feel about your job?",
+        "How do you feel about your job?",
+        "How do you feel about your job?",
+        "How do you feel about your job?"
+    ],
+    "Do you have to serve any loans?": [
+        "Do you have to serve any loans?           ",
+        "Do you have to serve any loans?",
+        "Do you have to serve any loans?           ",
+        "Do you have to serve any loans?",
+        "Do you have to serve any loans?           ",
+        "Do you have to serve any loans?",
+        "Do you have to serve any loans?           ",
+        "Do you have to serve any loans?",
+        "Do you have to serve any loans?           ",
+        "Do you have to serve any loans?",
+        "Do you have to serve any loans?           ",
+        "Do you have to serve any loans?",
+        "Do you have to serve any loans?           ",
+        "Do you have to serve any loans?",
+        "6a. Do you have to serve any loans?",
+        "Do you have to serve any loans?",
+        "Do you have to serve any loans?"
+    ],
+    "If yes, how much was the loan?": [
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "If yes, how much was the loan?",
+        "How much was the loan?"
+    ],
+    "What was the laon for?": [
+        "What was the laon for?         ,    ",
+        "What was the laon for?",
+        "What was the laon for?         ,    ",
+        "What was the laon for?",
+        "What was the laon for?         ,    ",
+        "What was the laon for?",
+        "What was the laon for?         ,    ",
+        "What was the laon for?",
+        "What was the laon for?         ,    ",
+        "What was the laon for?",
+        "What was the laon for?         ,    "
+    ],
+    "How much do you pay each month? (QAR)": [
+        "How much do you pay each month? (QAR)",
+        "How much do you pay each month? (QAR)",
+        "How much do you pay each month?"
+    ],
+    "Medical (QAR)": [
+        "Medical (QAR)",
+        "Medical (QAR)",
+        "Medical (QAR)"
+    ],
+    "Medical [Numerical value only]": [
+        "Medical [Numerical value only]"
+    ],
+    "Name": [
+        "Name",
+        "Name",
+        "Name",
+        "Name",
+        "Name",
+        "Name",
+        "Name    ",
+        "Name",
+        "Name",
+        "Name",
+        "Name",
+        "Name",
+        "Name"
+    ],
+    "Nationality": [
+        "Nationality\n\n",
+        "Nationality",
+        "Nationality\n\n",
+        "Nationality",
+        "Nationality\n\n",
+        "Nationality",
+        "Nationality",
+        "Nationality",
+        "Nationality"
+    ],
+    "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?": [
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc. without borrowing money?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc. without borrowing money?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc. without borrowing money?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc. without borrowing money?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc.?",
+        "Is the money you earn from this job enough to cover your basic needs such as rent, bills, education etc. without borrowing money?"
+    ],
+    "After you and your family have paid all of your family monthly basic needs, is there any money left? ": [
+        "After you and your family have paid all of your family monthly basic needs, is there any money left? ",
+        "After you and your family have paid all of your family monthly basic needs, is there any money left? ",
+        "After you and your family have paid all of your family monthly basic needs, is there any money left? ",
+        "After you and your family have paid all of your family monthly basic needs, is there any money left? ",
+        "After you and your family have paid all of your family monthly basic needs, is there any money left? ",
+        "After you and your family have paid all of your family monthly basic needs, is there any money left? ",
+        "After you and your family have paid all of your family monthly basic needs, is there any money left? "
+    ],
+    "\nHow much do you pay each month?              ": [
+        "How much do you pay each month?              ",
+        "\nHow much do you pay each month?              ",
+        "How much do you pay each month?              ",
+        "\nHow much do you pay each month?              ",
+        "How much do you pay each month?              ",
+        "\nHow much do you pay each month?              ",
+        "How much do you pay each month?              "
+    ],
+    "Who did you pay?": [
+        "How much did you pay in total? (QAR)"
+    ],
+    "Other  payments (QAR)": [
+        "Other  payments (QAR)",
+        "Other  payments (QAR)",
+        "Other  payments (QAR)"
+    ],
+    "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for": [
+        "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for",
+        "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for",
+        "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for",
+        "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for",
+        "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for",
+        "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for",
+        "If aquaintance or worker paid money to more than one person, please specify who they paid, when they made the payment and what the payment was for"
+    ],
+    "Do you have any proof of payment?": [
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?"
+    ],
+    "Have you started receiving (SCURS) payment?": [
+        "Have you started receiving (SCURS) payment?",
+        "Have you started receiving (SCURS) payment?",
+        "Have you started receiving (SCURS) payment?",
+        "Have you started receiving (SCURS) payment?",
+        "Have you started receiving (SCURS) payment?",
+        "Have you started receiving (SCURS) payment?",
+        "Have you started receiving (SCURS) payment?"
+    ],
+    "Do you know what this payment is for?": [
+        "Do you know what this payment is for?",
+        "Do you know what this payment is for?",
+        "Do you know what this payment is for?",
+        "Do you know what this payment is for?",
+        "Did the contractor explain what this payment is for?"
+    ],
+    "How important is the payment for you?": [
+        "How important is the payment for you?",
+        "How important is the payment for you?",
+        "How important is the payment for you?",
+        "How important is the payment for you?",
+        "How much payment do you receive?",
+        "How important is the payment for you?",
+        "How important is the payment for you?",
+        "How important is the payment for you?",
+        "How important is the payment for you?"
+    ],
+    "Did you pay any moneys to get this job and come here? ": [
+        "Did you pay any moneys to get this job and come here? "
+    ],
+    "Position / role": [
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role",
+        "Position / role"
+    ],
+    "Have you seen a colleague or have you been promoted and /or upskilled? ": [
+        "Have you seen a colleague or have you been promoted and /or upskilled at this contractor? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled at this contractor? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled at this contractor? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled at this contractor? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled? ",
+        "Have you seen a colleague or have you been promoted and /or upskilled at this contractor? "
+    ],
+    "Quarter": [
+        "Quarter",
+        "Quarter",
+        "Quarter"
+    ],
+    "Combined Quarter,year & type": [
+        "Combined Quarter,year & type"
+    ],
+    "Would you recommend this job to friends or family? Why?": [
+        "Would you recommend this job to friends or family? Why?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family? Why?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family? Why?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family? Why?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family? Why?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family? Why?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family? Why?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family?  \n                         ",
+        "Would you recommend this job to friends or family? Why?",
+        "Would you recommend this job to friends or family?"
+    ],
+    "Would you recommend this job to a friend?": [
+        "Would you recommend this job to a friend?",
+        "Would you recommend this job to a friend?",
+        "Would you recommend this job to a friend?",
+        "Would you recommend this job to a friend?",
+        "Would you recommend this job to a friend?",
+        "Would you recommend this job to a friend?",
+        "Would you recommend this job to a friend?"
+    ],
+    "If you didn't receive a recommendation, why not?": [
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?",
+        "If you didn't receive a recommendation, why not?"
+    ],
+    "Did u pay recruitment fees?": [
+        "Did you pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did you pay recruitment fees? ",
+        "Did u pay recruitment fees?",
+        "Did you pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "8a. Did you pay recruitment fees?",
+        "Did u pay recruitment fees?",
+        "Did you pay recruitment fees? ",
+        "Did u pay recruitment fees?",
+        "Did you pay recruitment fees?"
+    ],
+    "How much did the recruitment cost?": [
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much did the recruitment cost?",
+        "How much (QAR) did you pay for recruitment?"
+    ],
+    "Has the worker been recruited directly for an SC project?": [
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?",
+        "Has the worker been recruited directly for an SC project?"
+    ],
+    "NEW: If the worker was in Qatar when being recruited to this contractor, have they paid anything to get this job at this contractor?": [
+        "NEW: If the worker was in Qatar when being recruited to this contractor, have they paid anything to get this job at this contractor?"
+    ],
+    "Reimbursed amount (QAR)": [
+        "Reimbursed amount (QAR)",
+        "Reimbursed amount (QAR)",
+        "Reimbursed amount (QAR)",
+        "Reimbursed amount (QAR)",
+        "Reimbursed amount",
+        "Reimbursed amount (QAR)",
+        "Reimbursed amount"
+    ],
+    "How much of your income is sent home each month? (QAR)": [
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month?\n              ",
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month? (QAR)\n              ",
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month? (QAR)\n              ",
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month? (QAR)\n              ",
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month? (QAR)\n              ",
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month? (QAR)\n              ",
+        "How much of your income is sent home each month? (QAR)",
+        "How much of your income is sent home each month? (QAR)\n              "
+    ],
+    "What is the remittance used for at home?": [
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?",
+        "What is the remittance used for at home?"
+    ],
+    "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n": [
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n",
+        "Is the worker a Worker Representative?\n(please indicate 'Yes' where applicable)\n"
+    ],
+    "Country of residence at time of recruitment.": [
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment.",
+        "Country of residence at time of recruitment."
+    ],
+    "Do you feel respected at work?": [
+        "Do you feel respected and listened to at work?",
+        "Do you feel respected at work?",
+        "Do you feel respected and listened to at work?",
+        "Do you feel respected at work?",
+        "Do you feel respected and listened to at work?",
+        "Do you feel respected at work?",
+        "Do you feel respected and listened to at work?",
+        "Do you feel respected at work?",
+        "Do you feel respected and listened to at work?"
+    ],
+    "If you don't have respect, then why not?": [
+        "If you don't have respect, then why not?",
+        "If you don't have respect, then why not?",
+        "If you don't have respect, then why not?",
+        "If you don't have respect, then why not?",
+        "If you don't have respect, then why not?",
+        "If you don't have respect, then why not?",
+        "If you don't have respect, then why not?"
+    ],
+    "I feel safe at my workplace": [
+        "Do you feel safe at work?",
+        "I feel safe at my workplace",
+        "Do you feel your workplace is a safe? ",
+        "I feel safe at my workplace",
+        "Do you feel your workplace is a safe? ",
+        "I feel safe at my workplace",
+        "Do you feel your workplace is a safe? ",
+        "I feel safe at my workplace",
+        "Do you feel your workplace is a safe? ",
+        "I feel safe at my workplace",
+        "Do you feel your workplace is a safe? "
+    ],
+    "If you think safety is a concern, why do you think so?": [
+        "If you think safety is a concern, why do you think so?",
+        "If you think safety is a concern, why do you think so?",
+        "If you think safety is a concern, why do you think so?",
+        "If you think safety is a concern, why do you think so?",
+        "If you think safety is a concern, why do you think so?",
+        "If you think safety is a concern, why do you think so?",
+        "If you think safety is a concern, why do you think so?"
+    ],
+    "How much would you like to earn per month": [
+        "How much would you like to earn per month\n             /      ",
+        "How much would you like to earn per month",
+        "How much would you like to earn per month\n             /      ",
+        "How much would you like to earn per month",
+        "How much would you like to earn per month\n             /      ",
+        "How much would you like to earn per month",
+        "How much would you like to earn per month\n             /      ",
+        "How much would you like to earn per month",
+        "How much would you like to earn per month\n             /      ",
+        "How much would you like to earn per month",
+        "How much would you like to earn per month (QAR)\n             /      ",
+        "How much would you like to earn per month",
+        "How much would you like to earn per month\n             /      "
+    ],
+    "Shift \n(What time is the worker scheduled to work?)": [
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)",
+        "Shift \n(What time is the worker scheduled to work?)"
+    ],
+    "Site name (What site the worker works on?)": [
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)",
+        "Site name (What site the worker works on?)"
+    ],
+    "What is SO on the site?": [
+        "What is SO on the site?"
+    ],
+    "How much are the agency fees?": [
+        "How much are the agency fees?"
+    ],
+    "Tier": [
+        "Tier",
+        "Tier",
+        "Tier",
+        "Tier",
+        "Tier"
+    ],
+    "Training (QAR)": [
+        "Training (QAR)",
+        "Training (QAR)",
+        "Training (QAR)"
+    ],
+    "Training [Numerical value only]": [
+        "Training [Numerical value only]"
+    ],
+    "Local Transport (QAR)": [
+        "Local Transport (QAR)",
+        "Local Transport (QAR)",
+        "Local Transport (QAR)"
+    ],
+    "Are you treated differently to people who do a similar job as you? ": [
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? ",
+        "Are you treated differently to people who do a similar job as you? "
+    ],
+    "If you received treatment, why did you receive it?": [
+        "If you received treatment, why did you receive it?",
+        "If you received treatment, why did you receive it?",
+        "If you received treatment, why did you receive it?",
+        "If you received treatment, why did you receive it?",
+        "If you received treatment, why did you receive it?",
+        "If you received treatment, why did you receive it?",
+        "If you received treatment, why did you receive it?"
+    ],
+    "Visa / Work permit (QAR)": [
+        "Visa / Work permit (QAR)",
+        "Visa / Work permit (QAR)",
+        "Visa / Work permit (QAR)"
+    ],
+    "Visa / Work permit [Numerical value only]": [
+        "Visa / Work permit [Numerical value only]"
+    ],
+    "Visit Type": [
+        "Visit type",
+        "Visit Type",
+        "Visit type",
+        "Visit Type",
+        "Visit type"
+    ],
+    "Why did you come to work here?": [
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?",
+        "1. Why did you come to work here?",
+        "Why did you come to work here?",
+        "Why did you come to work here?"
+    ],
+    "year": [
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year",
+        "year"
+    ]
+}

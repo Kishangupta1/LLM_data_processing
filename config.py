@@ -3,6 +3,7 @@ question_form_prompt = "prompts/expand_no_context_ques.json"
 question_sim = "prompts/merge_similar_question.json"
 question_sim_iter = "prompts/merge_question_iteratively.json"
 clustering_rows = "prompts/clustering_rows.json"
+get_topic = "prompts/get_topic.json"
 llm_url = "http://129.80.151.216:8888/"  # vm4
 # llm_url = "http://129.80.129.149:8888/"  # vm6
 llm_endpoint = "api/train/llm/rag/invoke"

@@ -57,10 +57,8 @@ def merge_rows(df_l, rows_to_merge, rows_idx_to_drop_list, merge_iter_dict):
             rows_idx_to_drop_list.append(rows_to_merge[idx + 1])  # row idx to drop
             # add to merge dict
             if df['question'][rows_to_merge[0]] not in merge_iter_dict:
-                merge_iter_dict[df['question'][rows_to_merge[0]]] = [df['question'][rows_to_merge[idx + 1]]]
+                merge_iter_dict[df['question'][rows_to_merge[0]]] = [df['question'][rows_to_merge[0]], df['question'][rows_to_merge[idx + 1]]]
             else:
-                merge_iter_dict[df['question'][rows_to_merge[0]]].append(
-                    df['question'][rows_to_merge[0]])  # Add same key to val
                 merge_iter_dict[df['question'][rows_to_merge[0]]].append(
                     df['question'][rows_to_merge[idx + 1]])  # Add similar question
         else:

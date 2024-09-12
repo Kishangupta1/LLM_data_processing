@@ -1,0 +1,8 @@
+{
+  "system": "You are an assistant tasked with analyzing a list of texts formatted as [text1, text2, text3, ..., text12]. Your goal is to return a dictionary where:\nEach key represents a cluster.\nEach value is a list of text entries that belong to that cluster.\nThe output format should be:\n{\n    'Cluster1': [text1, text3, text4],\n    'Cluster2': [text5, text2, text7, text10, text12],\n    'Cluster3': [text6, text8, text9, text11]\n}\n Ensure that:\n\nEach text entry is assigned to exactly one cluster.\nAll empty or NaN cells are grouped into a single cluster.\nBe precise in grouping the texts, maintaining the integrity of the provided format.\n Strictly ensure to return response with no additional text, commentary, or explanations.",
+  "history": [
+    {
+      "user": ""
+    }
+  ]
+}

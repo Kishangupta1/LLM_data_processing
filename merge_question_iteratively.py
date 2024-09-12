@@ -61,10 +61,8 @@ def merge_rows(df_l, rows_to_merge, rows_idx_to_drop_list, merge_iter_dict):
             rows_idx_to_drop_list.append(rows_to_merge[idx + 1])  # row idx to drop
             # add to merge dict
             if df['question'][rows_to_merge[0]] not in merge_iter_dict:
-                merge_iter_dict[df['question'][rows_to_merge[0]]] = [df['question'][rows_to_merge[idx + 1]]]
+                merge_iter_dict[df['question'][rows_to_merge[0]]] = [df['question'][rows_to_merge[0]], df['question'][rows_to_merge[idx + 1]]]
             else:
-                merge_iter_dict[df['question'][rows_to_merge[0]]].append(
-                    df['question'][rows_to_merge[0]])  # Add same key to val
                 merge_iter_dict[df['question'][rows_to_merge[0]]].append(
                     df['question'][rows_to_merge[idx + 1]])  # Add similar question
         else:
@@ -79,7 +77,7 @@ if __name__ == '__main__':
     df = pd.read_excel(filepath)
     no_of_iter = 250
     no_of_ques = 15
-    max_ques_to_merge_at_once = no_of_ques/1
+    # max_ques_to_merge_at_once = no_of_ques/1
     merge_iter_map = {}
     for i in tqdm(range(no_of_iter), desc="Processing"):
         rows_idx_to_drop = []
@@ -93,7 +91,7 @@ if __name__ == '__main__':
             continue
         if isinstance(similar_question_idx_list, list):
             for idx_list in similar_question_idx_list:
-                if 1 < len(idx_list) < max_ques_to_merge_at_once:
+                if len(idx_list) > 1:
                     print(f"Merging indices: {idx_list}")
                     print(f"questions: {[df['question'][x] for x in idx_list]}")
                     merge_rows(df, idx_list, rows_idx_to_drop, merge_iter_map)

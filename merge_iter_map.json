@@ -1,0 +1,72 @@
+{
+    "If you wanted to leave this job and go back home, could you? ": [
+        "If you wanted to leave this job and go back home, could you? ",
+        "If you wanted to leave this job and go back home, could you? ",
+        "If you wanted to leave this job and go back home, could you? ",
+        "If you wanted to leave this job and go back home, could you? ",
+        "If you wanted to leave this job and go back home, could you? ",
+        "If you wanted to leave this job and go back home, could you? ",
+        "If you wanted to leave this job and go back home, could you? "
+    ],
+    "How much do you pay each month? (QAR)": [
+        "\nHow much do you pay each month?              "
+    ],
+    "If you didn't get the job, why not?": [
+        "If you didn't get the job, why not?",
+        "If you didn't get the job, why not?",
+        "If you didn't get the job, why not?",
+        "If you didn't get the job, why not?",
+        "If you didn't get the job, why not?",
+        "If you didn't get the job, why not?",
+        "If you didn't get the job, why not?"
+    ],
+    "Do you have any proof of payment?": [
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?",
+        "Do you have any proof of payment?"
+    ],
+    "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors": [
+        "Have you ever experienced or witnessed unaccepatble behaviour in the workplace - From employees, managers, supervisors"
+    ],
+    "How much of your income is sent home each month? (QAR)": [
+        "5b. How much is your income is sent home each month? (QAR)"
+    ],
+    "Do you know what this payment is for?": [
+        "What is this payment for?",
+        "Do you know what this payment is for?",
+        "Do you know what this payment is for?"
+    ],
+    "Agency fees (QAR)": [
+        "How much are the agency fees?"
+    ],
+    "What was the laon for?": [
+        "What was the laon for?         ,    "
+    ],
+    "What is the money use for at home?": [
+        "What is the remittance used for at home?"
+    ],
+    "Broker / Middle man (QAR)": [
+        "Broker / Middle man [Numerical value only]"
+    ],
+    "If yes, how much did the worker pay?": [
+        "If yes, for what did the worker pay? "
+    ],
+    "Other  payments [Free text]": [
+        "Other  payments [Free text]"
+    ],
+    "Country        ": [
+        "Nationality"
+    ],
+    "Country of Origin        ": [
+        "Country        "
+    ],
+    "Contractor": [
+        "Contractor Name"
+    ],
+    "How much did you pay in total?": [
+        "How much did you pay?"
+    ],
+    "Quarter & year": [
+        "Quarter"
+    ]
+}
